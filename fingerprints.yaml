@@ -1,0 +1,6 @@
+tapestryHome:
+  - id: "Tapestry/thpz1"
+    deviceLabel: Tapestry Presence Sensor Z1
+    manufacturer: Tapestry
+    model: THPZ1
+    deviceProfileName: thpz1

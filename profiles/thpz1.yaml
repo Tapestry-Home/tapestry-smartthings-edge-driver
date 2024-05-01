@@ -1,0 +1,12 @@
+name: thpz1
+components:
+  - id: main
+    capabilities:
+      - id: occupancySensor
+        version: 1
+      - id: temperatureMeasurement
+        version: 1
+      - id: relativeHumidityMeasurement
+        version: 1
+    categories:
+     - name: MultiFunctionalSensor

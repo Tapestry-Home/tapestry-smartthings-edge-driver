@@ -1,0 +1,4 @@
+name: 'Tapestry Home Zigbee'
+packageKey: 'tapestry-zigbee'
+permissions:
+  zigbee: {}
