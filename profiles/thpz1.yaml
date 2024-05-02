@@ -9,4 +9,4 @@ components:
       - id: relativeHumidityMeasurement
         version: 1
     categories:
-     - name: MultiFunctionalSensor
+      - name: PresenceSensor
