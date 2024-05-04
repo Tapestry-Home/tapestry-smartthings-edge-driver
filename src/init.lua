@@ -1,9 +1,7 @@
 local capabilities = require "st.capabilities"
 local zcl_clusters = require "st.zigbee.zcl.clusters"
 local ZigbeeDriver = require "st.zigbee"
-local constants = require "st.zigbee.constants"
 local defaults = require "st.zigbee.defaults"
-local data_types = require "st.zigbee.data_types"
 
 local function added(driver, device) 
     device:refresh()
@@ -23,7 +21,7 @@ local thpz1_driver_template = {
         capabilities.relativeHumidityMeasurement,
         capabilities.occupancySensor
     },
-    zigbee_handlers = handlers,
+    -- zigbee_handlers = handlers,
     lifecycle_handlers = {
         added = added
     },

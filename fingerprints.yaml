@@ -1,5 +1,5 @@
-tapestryHome:
-  - id: "Tapestry/thpz1"
+zigbeeManufacturer:
+  - id: "Tapestry/THPZ1"
     deviceLabel: Tapestry Presence Sensor Z1
     manufacturer: Tapestry
     model: THPZ1
