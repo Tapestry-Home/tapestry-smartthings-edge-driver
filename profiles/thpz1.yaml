@@ -10,3 +10,44 @@ components:
         version: 1
     categories:
       - name: PresenceSensor
+preferences:
+  - preferenceId: tempOffset
+    explicit: true  
+  - preferenceId: humidityOffset
+    explicit: true
+  - name: "tempMaxTime"
+    title: "Temperature Report Interval (min)"
+    description: "Select Temperature Report Maximum Interval (5 min to 240 min). Default: 10 min"
+    required: false
+    preferenceType: integer
+    definition:
+      minimum: 5
+      maximum: 240
+      default: 10   
+  - name: "tempChangeRep"
+    title: "Temperature Reportable Change"
+    description: "Select Temperature Reportable Change (0.1ºc to 6ºc). Default: 1ºc"
+    required: false
+    preferenceType: number
+    definition:
+      minimum: 0.1
+      maximum: 6
+      default: 1
+  - name: "humMaxTime"
+    title: "Humidity Report Interval (min)"
+    description: "Select Humidity Report Maximum Interval (5 min to 240 min). Default: 60 min"
+    required: false
+    preferenceType: integer
+    definition:
+      minimum: 5
+      maximum: 240
+      default: 60   
+  - name: "humChangeRep"
+    title: "Humidity Reportable Change (%)"
+    description: "Select Humidity Reportable Change (1% to 10%). Default: 1%"
+    required: false
+    preferenceType: integer
+    definition:
+      minimum: 1
+      maximum: 10
+      default: 1
