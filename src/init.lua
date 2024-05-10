@@ -50,7 +50,7 @@ local function do_configure(self,device)
     ----configure temperature reports
     local maxTime = device.preferences.tempMaxTime * 60
     local changeRep = device.preferences.tempChangeRep * 100
-    print ("Temp maxTime:", maxTime "changeRep:", changeRep)
+    print ("Temp maxTime:", maxTime, "changeRep:", changeRep)
 
     local config ={
         cluster = zcl_clusters.TemperatureMeasurement.ID,
